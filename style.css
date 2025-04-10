@@ -131,3 +131,55 @@ footer .soc {
     display: flex;
     gap: 30px;
 }
+
+.commitment .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.commitment p {
+    line-height: 25px;
+}
+
+.commitment .container div {
+    width: 50%;
+}
+
+.commitment img {
+    width: 40%;
+}
+
+.quality {
+    background-color: #C99B67;
+    height: 500px;
+}
+
+.quality .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.quality .container div {
+    width: 50%;
+}
+
+.quality img {
+    width: 45%;
+    position: absolute;
+    right: -100px;
+    top: -100px;
+}
+
+.quality h2 {
+    color: white;
+    font-size: 38px;
+}
+
+.quality p {
+    line-height: 1.7;
+    color: white;
+}
