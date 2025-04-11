@@ -74,6 +74,12 @@ header a:hover {
     border-radius: 40px;
 }
 
+.intro a:hover {
+    background-color: transparent;
+    color: #0A775F;
+    border: 2px solid #0A775F;
+}
+
 .intro .images {
     position: relative;
 }
@@ -132,6 +138,10 @@ footer .soc {
     gap: 30px;
 }
 
+.commitment {
+    padding: 70px 0;
+}
+
 .commitment .container {
     display: flex;
     align-items: center;
@@ -147,7 +157,7 @@ footer .soc {
 }
 
 .commitment img {
-    width: 40%;
+    width: 30%;
 }
 
 .quality {
